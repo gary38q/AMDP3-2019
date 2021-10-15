@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forget Password</title>
+    <link rel="stylesheet" type="text/css" href="Log-in.css">
+</head>
+<body>
+    <div class="kotak">
+        <div class ="gambar">
+            <img src="1573894313424.png" width="250px" height="50px">
+        </div>
+        <hr>
+        <br>
+        <form action="Reset.php" method="POST" onsubmit="return validate()" name="mylitteform" class="littleform">
+                <div class="sama">  
+                    <span><input type="password" name="password" id="txtpass" placeholder="New Password" class="form" required></span>
+                    <span class="error" id="errpass"></span>
+                    <br>    
+                 </div>
+                 <br>
+                 <div class="sama">
+                        <span><input type="password" name="passconfirm" id="txtconfirm" placeholder="Confirmation Password" class="form" ></span>
+                        <span class="error" id="errconfirm"></span>
+                        <br>
+                    </div>
+                <br>
+            <input type="submit" value="Send Password Reset Link" class="submit">
+           
+        </form>
+        <script src="Reset.js"></script>
+        <br>
+        <div class="lupa"><a href="Log-in-U.html">Back to Log in</a></div>
+    </div>
+</body>
+</html>
+
+<style>
+		a:link{
+		color:  lightslategrey;
+		text-decoration: none;
+		}
+		a:visited{
+		color: lightslategrey;
+        }
+	</style>

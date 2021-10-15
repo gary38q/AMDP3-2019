@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Waktu pembuatan: 24 Nov 2019 pada 17.30
+- Versi server: 10.4.8-MariaDB
+- Versi PHP: 7.3.11
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="garyforums" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="garyforums">
+                CREATE TABLE `garyforums` (
+                  `ID` int(11) NOT NULL AUTO_INCREMENT,
+                  `username` varchar(20) NOT NULL,
+                  `password` varchar(40) NOT NULL,
+                  `email` varchar(40) NOT NULL,
+                  `Verify` int(1) DEFAULT 0,
+                  PRIMARY KEY (`ID`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'garyforums'
+    -->
+    <database name="garyforums">
+        <!-- Tabel garyforums -->
+        <table name="garyforums">
+            <column name="ID">48</column>
+            <column name="username">asdasdasd</column>
+            <column name="password">de44d5c092d95350351dfdab05f6f2ef</column>
+            <column name="email">tuminosun123@yahoo.com</column>
+            <column name="Verify">0</column>
+        </table>
+    </database>
+</pma_xml_export>

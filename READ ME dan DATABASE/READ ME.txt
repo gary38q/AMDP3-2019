@@ -1,0 +1,27 @@
+A. Project Structure :
+
+Sign up(Done)
+Log in Username (Done)
+Log in Email (Done)
+Log out (Done)
+Reset (Tinggal mengubah)
+Home - User 
+Home - Mods 
+Account - profile User
+Account - Manage USer
+Account - profile Mods
+Account - Manage Mods
+
+(WAKTU kebanyakan Habis membuat kirim email Tapi Gagal juga)
+
+B. Software Stack:
+- XAMPP Control Panel v3.2.4 
+- Visual Studio Code
+
+C. NO EXTERNAL LIBRARY
+D. NO THIRD PARTY LIBRARY
+
+
+E . Mengecek Reset password email apakah ada di database? Jika tidak ada maka INVALID EMAIL.
+    Membuat Log in email dan username terpisah.
+

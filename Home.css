@@ -1,0 +1,78 @@
+.gambar{
+    float: left;
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gambar-User{
+    float: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    float: left;
+    text-align: center;
+    
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.header-left-1{
+    float: left;
+    text-align: center;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    width: 100%;
+    height: 10px;
+    border: 0px;
+    box-shadow: 0px 10px 10px -10px #8c8c8c inset;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Kotak-Group{
+    color: lightgray;
+
+    text-align: center;
+    width: 190px;
+    border: 3px solid lightgray;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    display: table;
+    
+}
+
+.header-right{
+    float: right;
+    text-align: center;
+    
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-left-acc{
+    float: left;
+    text-align: center;
+    
+    width: 270px;
+    height: 60px;
+    margin-top: 80px;
+
+}
+.gambar-acc{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
